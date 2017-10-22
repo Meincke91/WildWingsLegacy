@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0E9E421BBF279000B0258B /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E9E411BBF279000B0258B /* GameData.swift */; };
+		1F0E9E451BC1543500B0258B /* WildWings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E9E431BC1543500B0258B /* WildWings.xcdatamodeld */; };
+		1F2400A01AC061A3001E74AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F24009F1AC061A3001E74AF /* AppDelegate.swift */; };
+		1F2400A41AC061A3001E74AF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400A31AC061A3001E74AF /* GameScene.swift */; };
+		1F2400A61AC061A3001E74AF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400A51AC061A3001E74AF /* GameViewController.swift */; };
+		1F2400A91AC061A3001E74AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2400A71AC061A3001E74AF /* Main.storyboard */; };
+		1F2400AE1AC061A3001E74AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F2400AC1AC061A3001E74AF /* LaunchScreen.xib */; };
+		1F2400BA1AC061A3001E74AF /* Wild_WingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400B91AC061A3001E74AF /* Wild_WingsTests.swift */; };
+		1F2400C41AC06334001E74AF /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400C31AC06334001E74AF /* Background.swift */; };
+		1F2400C61AC0644B001E74AF /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400C51AC0644B001E74AF /* UIColorExtensions.swift */; };
+		1F2400CA1AC06696001E74AF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2400C91AC06696001E74AF /* Media.xcassets */; };
+		1F2400CC1AC0C2AD001E74AF /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400CB1AC0C2AD001E74AF /* Characters.swift */; };
+		1F2400CE1AC1FA2D001E74AF /* Obstacles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400CD1AC1FA2D001E74AF /* Obstacles.swift */; };
+		1F2400D01AC2B83F001E74AF /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400CF1AC2B83F001E74AF /* GameOver.swift */; };
+		1F2400D21AC3791E001E74AF /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400D11AC3791E001E74AF /* GameOverScene.swift */; };
+		1F2400D41AC454B6001E74AF /* PowerUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2400D31AC454B6001E74AF /* PowerUps.swift */; };
+		1F2400D61AC45C2F001E74AF /* particleApple.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F2400D51AC45C2F001E74AF /* particleApple.sks */; };
+		1F37C5B61AD8232C003AD6F8 /* WorkShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37C5B51AD8232C003AD6F8 /* WorkShop.swift */; };
+		1F37C5B81AD82715003AD6F8 /* WorkShopScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F37C5B71AD82715003AD6F8 /* WorkShopScene.swift */; };
+		1F63ABD31ACCE375007DA7DB /* particleBranch.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F63ABD11ACCE375007DA7DB /* particleBranch.sks */; };
+		1F63ABD61AD201B0007DA7DB /* Objectives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F63ABD51AD201AF007DA7DB /* Objectives.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F2400B41AC061A3001E74AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F2400921AC061A3001E74AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F2400991AC061A3001E74AF;
+			remoteInfo = "Wild Wings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0E9E411BBF279000B0258B /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		1F0E9E441BC1543500B0258B /* WildWings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WildWings.xcdatamodel; sourceTree = "<group>"; };
+		1F24009A1AC061A3001E74AF /* Wild Wings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wild Wings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F24009E1AC061A3001E74AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F24009F1AC061A3001E74AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F2400A31AC061A3001E74AF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1F2400A51AC061A3001E74AF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1F2400A81AC061A3001E74AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F2400AD1AC061A3001E74AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F2400B31AC061A3001E74AF /* Wild WingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wild WingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2400B81AC061A3001E74AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2400B91AC061A3001E74AF /* Wild_WingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wild_WingsTests.swift; sourceTree = "<group>"; };
+		1F2400C31AC06334001E74AF /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		1F2400C51AC0644B001E74AF /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		1F2400C91AC06696001E74AF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		1F2400CB1AC0C2AD001E74AF /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		1F2400CD1AC1FA2D001E74AF /* Obstacles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obstacles.swift; sourceTree = "<group>"; };
+		1F2400CF1AC2B83F001E74AF /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		1F2400D11AC3791E001E74AF /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		1F2400D31AC454B6001E74AF /* PowerUps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerUps.swift; sourceTree = "<group>"; };
+		1F2400D51AC45C2F001E74AF /* particleApple.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = particleApple.sks; sourceTree = "<group>"; };
+		1F37C5B51AD8232C003AD6F8 /* WorkShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkShop.swift; sourceTree = "<group>"; };
+		1F37C5B71AD82715003AD6F8 /* WorkShopScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkShopScene.swift; sourceTree = "<group>"; };
+		1F63ABD11ACCE375007DA7DB /* particleBranch.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = particleBranch.sks; sourceTree = "<group>"; };
+		1F63ABD51AD201AF007DA7DB /* Objectives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objectives.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2400971AC061A3001E74AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2400B01AC061A3001E74AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2400911AC061A3001E74AF = {
+			isa = PBXGroup;
+			children = (
+				1F24009C1AC061A3001E74AF /* Wild Wings */,
+				1F2400B61AC061A3001E74AF /* Wild WingsTests */,
+				1F24009B1AC061A3001E74AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F24009B1AC061A3001E74AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F24009A1AC061A3001E74AF /* Wild Wings.app */,
+				1F2400B31AC061A3001E74AF /* Wild WingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F24009C1AC061A3001E74AF /* Wild Wings */ = {
+			isa = PBXGroup;
+			children = (
+				1F2400D51AC45C2F001E74AF /* particleApple.sks */,
+				1F63ABD11ACCE375007DA7DB /* particleBranch.sks */,
+				1F24009F1AC061A3001E74AF /* AppDelegate.swift */,
+				1F0E9E431BC1543500B0258B /* WildWings.xcdatamodeld */,
+				1F2400A31AC061A3001E74AF /* GameScene.swift */,
+				1F2400C31AC06334001E74AF /* Background.swift */,
+				1F2400D31AC454B6001E74AF /* PowerUps.swift */,
+				1F2400D11AC3791E001E74AF /* GameOverScene.swift */,
+				1F0E9E411BBF279000B0258B /* GameData.swift */,
+				1F2400CF1AC2B83F001E74AF /* GameOver.swift */,
+				1F2400CD1AC1FA2D001E74AF /* Obstacles.swift */,
+				1F2400CB1AC0C2AD001E74AF /* Characters.swift */,
+				1F2400C51AC0644B001E74AF /* UIColorExtensions.swift */,
+				1F2400A51AC061A3001E74AF /* GameViewController.swift */,
+				1F37C5B51AD8232C003AD6F8 /* WorkShop.swift */,
+				1F37C5B71AD82715003AD6F8 /* WorkShopScene.swift */,
+				1F63ABD51AD201AF007DA7DB /* Objectives.swift */,
+				1F2400A71AC061A3001E74AF /* Main.storyboard */,
+				1F2400AC1AC061A3001E74AF /* LaunchScreen.xib */,
+				1F24009D1AC061A3001E74AF /* Supporting Files */,
+			);
+			path = "Wild Wings";
+			sourceTree = "<group>";
+		};
+		1F24009D1AC061A3001E74AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2400C91AC06696001E74AF /* Media.xcassets */,
+				1F24009E1AC061A3001E74AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F2400B61AC061A3001E74AF /* Wild WingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F2400B91AC061A3001E74AF /* Wild_WingsTests.swift */,
+				1F2400B71AC061A3001E74AF /* Supporting Files */,
+			);
+			path = "Wild WingsTests";
+			sourceTree = "<group>";
+		};
+		1F2400B71AC061A3001E74AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2400B81AC061A3001E74AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F2400991AC061A3001E74AF /* Wild Wings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2400BD1AC061A3001E74AF /* Build configuration list for PBXNativeTarget "Wild Wings" */;
+			buildPhases = (
+				1F2400961AC061A3001E74AF /* Sources */,
+				1F2400971AC061A3001E74AF /* Frameworks */,
+				1F2400981AC061A3001E74AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wild Wings";
+			productName = "Wild Wings";
+			productReference = 1F24009A1AC061A3001E74AF /* Wild Wings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F2400B21AC061A3001E74AF /* Wild WingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2400C01AC061A3001E74AF /* Build configuration list for PBXNativeTarget "Wild WingsTests" */;
+			buildPhases = (
+				1F2400AF1AC061A3001E74AF /* Sources */,
+				1F2400B01AC061A3001E74AF /* Frameworks */,
+				1F2400B11AC061A3001E74AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F2400B51AC061A3001E74AF /* PBXTargetDependency */,
+			);
+			name = "Wild WingsTests";
+			productName = "Wild WingsTests";
+			productReference = 1F2400B31AC061A3001E74AF /* Wild WingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F2400921AC061A3001E74AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = drades;
+				TargetAttributes = {
+					1F2400991AC061A3001E74AF = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = LG3864Q8PK;
+					};
+					1F2400B21AC061A3001E74AF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1F2400991AC061A3001E74AF;
+					};
+				};
+			};
+			buildConfigurationList = 1F2400951AC061A3001E74AF /* Build configuration list for PBXProject "Wild Wings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F2400911AC061A3001E74AF;
+			productRefGroup = 1F24009B1AC061A3001E74AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F2400991AC061A3001E74AF /* Wild Wings */,
+				1F2400B21AC061A3001E74AF /* Wild WingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F2400981AC061A3001E74AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2400AE1AC061A3001E74AF /* LaunchScreen.xib in Resources */,
+				1F2400CA1AC06696001E74AF /* Media.xcassets in Resources */,
+				1F2400D61AC45C2F001E74AF /* particleApple.sks in Resources */,
+				1F2400A91AC061A3001E74AF /* Main.storyboard in Resources */,
+				1F63ABD31ACCE375007DA7DB /* particleBranch.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2400B11AC061A3001E74AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2400961AC061A3001E74AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F37C5B81AD82715003AD6F8 /* WorkShopScene.swift in Sources */,
+				1F2400D41AC454B6001E74AF /* PowerUps.swift in Sources */,
+				1F2400A41AC061A3001E74AF /* GameScene.swift in Sources */,
+				1F37C5B61AD8232C003AD6F8 /* WorkShop.swift in Sources */,
+				1F0E9E451BC1543500B0258B /* WildWings.xcdatamodeld in Sources */,
+				1F2400CC1AC0C2AD001E74AF /* Characters.swift in Sources */,
+				1F63ABD61AD201B0007DA7DB /* Objectives.swift in Sources */,
+				1F2400CE1AC1FA2D001E74AF /* Obstacles.swift in Sources */,
+				1F2400A61AC061A3001E74AF /* GameViewController.swift in Sources */,
+				1F2400A01AC061A3001E74AF /* AppDelegate.swift in Sources */,
+				1F2400C41AC06334001E74AF /* Background.swift in Sources */,
+				1F2400C61AC0644B001E74AF /* UIColorExtensions.swift in Sources */,
+				1F0E9E421BBF279000B0258B /* GameData.swift in Sources */,
+				1F2400D21AC3791E001E74AF /* GameOverScene.swift in Sources */,
+				1F2400D01AC2B83F001E74AF /* GameOver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2400AF1AC061A3001E74AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2400BA1AC061A3001E74AF /* Wild_WingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F2400B51AC061A3001E74AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F2400991AC061A3001E74AF /* Wild Wings */;
+			targetProxy = 1F2400B41AC061A3001E74AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F2400A71AC061A3001E74AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2400A81AC061A3001E74AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F2400AC1AC061A3001E74AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F2400AD1AC061A3001E74AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F2400BB1AC061A3001E74AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F2400BC1AC061A3001E74AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F2400BE1AC061A3001E74AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG3864Q8PK;
+				INFOPLIST_FILE = "Wild Wings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drades.www.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F2400BF1AC061A3001E74AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG3864Q8PK;
+				INFOPLIST_FILE = "Wild Wings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drades.www.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F2400C11AC061A3001E74AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wild WingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drades.www.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wild Wings.app/Wild Wings";
+			};
+			name = Debug;
+		};
+		1F2400C21AC061A3001E74AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wild WingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "drades.www.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wild Wings.app/Wild Wings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F2400951AC061A3001E74AF /* Build configuration list for PBXProject "Wild Wings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2400BB1AC061A3001E74AF /* Debug */,
+				1F2400BC1AC061A3001E74AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2400BD1AC061A3001E74AF /* Build configuration list for PBXNativeTarget "Wild Wings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2400BE1AC061A3001E74AF /* Debug */,
+				1F2400BF1AC061A3001E74AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2400C01AC061A3001E74AF /* Build configuration list for PBXNativeTarget "Wild WingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2400C11AC061A3001E74AF /* Debug */,
+				1F2400C21AC061A3001E74AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F0E9E431BC1543500B0258B /* WildWings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F0E9E441BC1543500B0258B /* WildWings.xcdatamodel */,
+			);
+			currentVersion = 1F0E9E441BC1543500B0258B /* WildWings.xcdatamodel */;
+			path = WildWings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F2400921AC061A3001E74AF /* Project object */;
+}
